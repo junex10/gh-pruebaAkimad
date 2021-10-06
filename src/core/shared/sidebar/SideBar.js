@@ -34,7 +34,7 @@ class SideBar extends Component {
                     </Link>
                 </li>
                 <li className="nav-item">
-                    <p className="nav-link collapsed active" onClick={() => {dropSession(); window.location.href = '/login'}}>
+                    <p className="nav-link collapsed active" onClick={() => {dropSession(); window.location.href = '/'}}>
                         <i className="fas fa-user"></i>
                         <span>Log out</span>
                     </p>
